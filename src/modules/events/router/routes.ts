@@ -4,10 +4,10 @@ import { CustomRouteRecordRaw } from 'vue-router'
 const routes: CustomRouteRecordRaw[] = [
   {
     path: '/',
-    component: () => import('../views/HomeView.vue'),
-    name: 'HomeView',
+    component: () => import('../views/EventsView.vue'),
+    name: 'EventsView',
     meta: {
-      title: 'Home',
+      title: 'Events',
       requiresAuth: false,
     },
   },

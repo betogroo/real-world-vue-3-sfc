@@ -6,15 +6,15 @@
     <v-app-bar-title>
       <RouterLink
         class="text-white text-decoration-none"
-        :to="{ name: 'HomeView' }"
+        :to="{ name: 'EventsView' }"
         >Vue Scaffold</RouterLink
       >
     </v-app-bar-title>
     <div class="ma-3">
       <RouterLink
         class="text-white text-decoration-none"
-        :to="{ name: 'HomeView' }"
-        >Home</RouterLink
+        :to="{ name: 'EventsView' }"
+        >Events</RouterLink
       >
       |
       <RouterLink

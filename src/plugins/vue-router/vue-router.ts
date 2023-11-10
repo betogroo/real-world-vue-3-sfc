@@ -1,9 +1,9 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
-import { routes as main } from '@/modules/main/router'
+import { routes as events } from '@/modules/events/router'
 import beforeEach from './beforeEach'
 
-const routes = [...main]
+const routes = [...events]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
